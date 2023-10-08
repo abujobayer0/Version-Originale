@@ -1,0 +1,21 @@
+/* AdminSidebar.css */
+
+/* Define the mobile-open class for the open mobile drawer */
+.mobile-open {
+    transform: translateX(0);
+  }
+  
+  /* Define a transition for smooth sliding animation */
+  .w-full-mobile {
+    transition: transform 0.3s ease;
+  }
+  
+  /* Style the drawer button as needed */
+  .drawer-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    /* Add your icon styles here */
+  }
+  
